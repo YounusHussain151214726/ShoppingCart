@@ -1,0 +1,380 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  
+}
+:root{
+  --white : #fff;
+--black : #000;
+--main : #ff6e68;
+--lightblack : #2c2c2c;
+}
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+transform: none;
+}
+
+ .navbar{
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 5px 20px 2px rgba(0, 0,0, 0.1);
+  background-color: white;
+  top: 0;
+position: fixed !important;
+z-index: 7 !important;
+} 
+.containner{
+  width: 1300px;
+  margin: 0 auto;
+
+}
+.navbarContainner{
+  width: 100%;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navbarRight img {
+  width: 90px;
+}
+.header{
+  background-image: url('/src/images/slider.gif');
+  width: 100%;
+height: 72vh;
+margin-top: 2pc;
+}
+a{
+  text-decoration: none;
+}
+.basket{
+  color: var(--main);
+  font-size: 22px;
+}
+.carticon{
+  position: relative;
+  
+}
+.carticon span{
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+right: -14px;
+top: -12px;
+width: 25px;
+height: 25px;
+background:var(--lightblack);
+border-radius: 50%;
+color: var(--white);
+}
+.row{
+  
+  background-color: blue;
+
+  
+}
+.Hcontainer{
+  margin: 30px 0px;
+ 
+}
+
+.cardTitle{
+  text-transform: uppercase;
+font-weight: 500 !important;
+color: rgb(117, 60, 60);
+}
+.cardText{
+
+  text-transform: capitalize;
+  color: rgb(87, 158, 17);
+  font-weight: 400;
+}
+
+.category{
+  background-color: #FFA500;
+  margin-top: 2pc;
+  height: 55px;
+  width: 100%;
+  border-radius: -1pc;
+}
+.cate{
+  font-size: 2pc;
+  font-weight: 700;
+  color: #800000;
+
+margin-left: 7pc;
+font-family:  sans-serif;
+
+}
+.Carddesign{
+display: flex;
+flex-wrap: wrap;
+margin-top: 5vh;
+
+}
+.col-3{
+  margin-left: 5vh;
+  margin-top: 5vh;
+}
+.cardPrice{
+  display: flex;
+}
+
+.cardprice{
+  color: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-decoration: line-through;
+ font-weight: 800;
+}
+
+.cardDprice{
+  margin-left: 4.1pc;
+color: #88710d;
+font-weight: 800;
+}
+.cardAn{
+
+width: 67% !important ;
+border-radius: 1.5pc !important;
+} 
+.cardAn:hover{
+
+ border-left: 2.5px solid rgb(108, 108, 207);
+ border-top: 2.5px solid rgb(149, 245, 6);
+ border-right: 2.5px solid rgb(172, 172, 57);
+ border-bottom: 2.5px solid rgb(175, 165, 158);
+
+
+}
+.link{
+  text-decoration: none;
+}
+
+
+.Dfd{
+  margin-top: 9pc ;
+  margin-left: 5pc;
+}
+
+/* detail screen spans */
+.ds1{
+  text-decoration: line-through;
+  color: red;
+  margin-left: 2px;
+  font-size: 1.4pc;
+  font-weight: bold;
+}
+
+.ds2{
+  margin-left: 0.5pc;
+  color: rgb(155, 226, 83);
+  font-size: 1.4pc;
+  font-weight: bold;
+}
+.ds3{
+  color: rgb(76, 233, 14);
+  font-weight: bold;
+  font-size:1.4pc;
+}
+.dsn{
+  margin-top: 2pc !important;
+  text-transform: uppercase;
+  font-weight: 500 !important;
+  color: rgb(117, 60, 60);
+}
+.dsnd{
+  margin-top: 1.2pc !important;
+  margin-left: 5px;
+}
+.dsd{
+  
+  text-transform: capitalize;
+  color: rgb(87, 158, 17);
+  font-weight: 400;
+  margin-left: 5px;
+
+}
+.dcard{
+  width: 50%;
+  text-align: center;
+top: -2.7pc !important;
+margin-left: 18%;
+}
+/* counter in detail screen */
+.id1{
+  display: flex;
+  height: 50px;
+
+}
+.dec:hover{
+  border-left:3px solid green;
+  border-right: 3px solid blue;
+  border-top: 3px solid yellow;
+  border-bottom: 3px solid red;
+}
+.inc:hover{
+  border-left:3px solid red;
+  border-right: 3px solid blue;
+  border-top: 3px solid yellow;
+  border-bottom: 3px solid green;}
+.dec , .quantity , .inc{
+   border: 2px solid rgb(240, 103, 103); 
+ width: 2pc;
+height: 35px; 
+border-radius: 1pc;
+margin-left: 0%;
+
+}
+.dec{
+  background-color: white;
+font-weight: 1000;
+color: black;
+font-weight: bolder;
+margin-left: 15.9pc;
+}
+.inc{
+  background-color: white;
+  font-weight: 1000;
+color: black;
+font-size: 1pc;
+}
+
+.cartmain{
+  margin-top: 6pc;
+}
+.cartcon{
+  background-color: skyblue;
+}
+/* .headings{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+
+.col2{
+  width: 20%;
+}
+ */
+ 
+/* ////cart// */
+
+.col2{
+  width: 10.333333333333%;
+}
+.col9{
+  width: 79%;
+  margin-top: 5pc;
+}
+.crow{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+
+.sum{
+  margin-left: 60%;
+margin-top: 0%;
+}
+.data{
+  display: flex;
+}
+.idd , .imgd ,.nid ,.pid ,.idd,.tid,.rd{
+  margin-left: 2pc;
+  margin-top: 2pc;
+}
+.idd{
+margin-left:3.3pc ;
+}
+.inc1 ,.dec1,.count{
+  border: 2px solid rgb(240, 103, 103); 
+ width: 2pc;
+height: 35px; 
+border-radius: 1pc;
+margin-left: 0%;
+}
+.count{
+  height: 35px;
+  border: 2px solid grey;
+  width: 9%;
+}
+.rd{
+  margin-left: 7pc;
+}
+.tid{
+  margin-left: 7pc;
+}
+
+
+.inpu{
+  margin-left: 9pc;
+  margin-top: 9pc;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar{
+    width: 100%;
+    height: 70px;
+   
+  } 
+  .carticon{
+    margin-right: 1.5pc;
+    
+  }
+  .navbarRight img {
+    margin-left: 1pc;
+  }
+  .header{
+    background-image: url('/src/images/slider.gif');
+    width: 100%;
+  height: 10vh;
+  margin-top: 5pc;
+  }
+
+  .category{
+    background-color: #498a40;
+    margin-top: 1pc;
+    height: 50px;
+    width: 100%;
+  }
+  .Carddesign{
+   margin-right: 10pc !important;
+  width: 100%;
+flex-direction: column;
+  margin-top: 1pc;
+
+}
+.cardAn{
+ 
+  width: 15pc !important;
+
+}
+.col-3{
+  margin-left: 1vh;
+  margin-top: 2vh;
+}
+.cardDprice{
+  margin-left: 5pc;
+
+}
+.dcard{
+  width: 15pc;
+  text-align: center;
+top: -2.7pc !important;
+margin-left: 5%;
+}
+.dlc{
+  margin-top: -1pc;
+}
+.dec{
+  
+margin-left: 3.5pc;
+}
+
+
+}
+
